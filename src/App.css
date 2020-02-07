@@ -1,0 +1,84 @@
+.breedCard, .catCard {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.catDex li {
+  display: inline-block;
+}
+
+.breedCard img, .catCard img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.raceDetails img, .catDetails img, .enemyCat img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: left;
+  margin: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav {
+  background-color: darkgrey;
+  padding: 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+}
+
+.ghostButton {
+  border: solid 1px grey;
+  color: grey;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#battleground  {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#battleground * {
+  text-align: center;;
+}
+
+#battleground img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+#fightPage h2 {
+  text-align: center;
+}
+
+#userHP, #enemyHP {
+  font-style: italic;
+}
